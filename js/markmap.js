@@ -30,7 +30,7 @@
         "d3": "https://fastly.jsdelivr.net/npm/d3@6",
         "markmap_view": "https://fastly.jsdelivr.net/npm/markmap-view@0.2.7",
       },
-      "css": [],
+      "css": ["https://fastly.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css",],
     }
     const loadElement = (elname, attr) => {
       const el = document.createElement(elname)
